@@ -1,17 +1,17 @@
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: helloworld
+  name: myweb 
 spec:
   hosts:
-    - helloworld
+    - myweb 
   http:
   - route:
     - destination:
-        host: helloworld
+        host: myweb 
         subset: v1
       weight: 90
     - destination:
-        host: helloworld
+        host: myweb 
         subset: v2
       weight: 10
