@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
- name: my-deployed-website
+ name: my-deployed-website2
  labels: 
   app: myweb
   version: v2
